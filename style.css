@@ -1,0 +1,48 @@
+.main-container {
+    background-color : bisque;
+    margin : 10px;
+
+    height: 500px;
+    width: 500px;
+}
+
+#ans {
+    
+    margin : 20px;
+    
+    padding : 10px;
+    width : 400px
+}
+
+/*
+    margin-left
+*/
+#ans, .arith-btns, div.numbers-container
+{
+    margin-left : 50px;
+}
+
+button {
+    border: 0;
+    padding : 10 20  10 20;
+    margin :15;
+}
+
+div.numbers-container {
+    width : 300px;
+    border : 1px solid ;
+
+}
+
+.numbers-container button {
+    border-radius : 2px;
+    color : red;
+    background-color: darkolivegreen;
+    font-size: medium;
+    
+}
+
+button:hover {
+    opacity : 0.4;
+    color :aqua;
+}
